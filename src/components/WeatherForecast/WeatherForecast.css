@@ -1,8 +1,8 @@
-section {
+div {
   display: flex;
 }
 
-section .weather {
+div .weather {
   border: 1px solid #ccc;
   flex: 1;
   padding: 10px;

@@ -1,3 +1,5 @@
+import './WeatherForecast.css';
+
 function WeatherForecast({ weather }) {
 	return (
 		<div className='weather'>
