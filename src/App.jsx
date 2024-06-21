@@ -1,4 +1,5 @@
 import './App.css';
+import WeatherForecast from './components/WeatherForecast/WeatherForecast';
 
 function App() {
 	const weatherForecasts = [
@@ -42,7 +43,13 @@ function App() {
 	return (
 		<>
 			<h1>Local Weather</h1>
-			<section>// Weather data here</section>
+			<section>
+				<WeatherForecast weather={weatherForecasts[0]} />
+				<WeatherForecast weather={weatherForecasts[1]} />
+				<WeatherForecast weather={weatherForecasts[2]} />
+				<WeatherForecast weather={weatherForecasts[3]} />
+				<WeatherForecast weather={weatherForecasts[4]} />
+			</section>
 		</>
 	);
 }
