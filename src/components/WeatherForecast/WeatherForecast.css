@@ -5,6 +5,7 @@ div {
 div .weather {
   border: 1px solid #ccc;
   flex: 1;
+  flex-direction: column;
   padding: 10px;
   text-align: center;
 }
