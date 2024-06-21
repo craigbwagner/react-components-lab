@@ -1,4 +1,4 @@
-function WeatherForecast(props) {
+function WeatherForecast({ weather }) {
 	return (
 		<div className='weather'>
 			<h2>Day of the Week</h2>
