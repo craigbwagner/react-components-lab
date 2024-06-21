@@ -1,16 +1,18 @@
 function WeatherForecast({ weather }) {
 	return (
 		<div className='weather'>
-			<h2>Day of the Week</h2>
+			<h2>{weather.day}</h2>
 			<img
-				src=''
-				alt=''
+				src={weather.img}
+				alt={weather.imgAlt}
 			/>
 			<p>
-				<span>conditions: </span>current weather conditions
+				<span>conditions: </span>
+				{weather.conditions}
 			</p>
 			<p>
-				<span>time: </span>time of day
+				<span>time: </span>
+				{weather.time}
 			</p>
 		</div>
 	);
