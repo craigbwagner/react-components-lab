@@ -43,7 +43,7 @@ function App() {
 	return (
 		<>
 			<h1>Local Weather</h1>
-			<section>
+			<section id='weather-container'>
 				<WeatherForecast weather={weatherForecasts[0]} />
 				<WeatherForecast weather={weatherForecasts[1]} />
 				<WeatherForecast weather={weatherForecasts[2]} />
